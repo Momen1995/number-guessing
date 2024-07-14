@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
+body{
+  background-color: #eaeaea;
+  font-family: 'Courier New', Courier, monospace;
+  color: #333131;
+}
+
+.game-container{
+  background-color: #ffffff;
+  width: 50%;
+  margin: 3rem auto 0;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  border-radius: 3px;
+}
+
+#input-number{
+  background-color: #eaeaea;
+  text-align: center;
+  width: 45%;
+  padding: 10px 5px;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 3px;
+}
+
+.btn-submit{
+  background-color: teal;
+}
+
+.btn-start{
+  background-color: rebeccapurple;
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: semibold;
+  cursor: pointer;
+}
+
+p{
+  font-weight: 600;
+  font-size: 1.1rem;
+}
