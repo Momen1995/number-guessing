@@ -14,9 +14,9 @@ body{
 
 .game-container{
   background-color: #ffffff;
-  width: 50%;
+  width: 60%;
   margin: 3rem auto 0;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -28,8 +28,8 @@ body{
 #input-number{
   background-color: #eaeaea;
   text-align: center;
-  width: 45%;
-  padding: 10px 5px;
+  width: 55%;
+  padding: 14px 5px;
   font-size: 1rem;
   font-family: inherit;
   border-radius: 3px;
