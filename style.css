@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,13 +6,13 @@
   outline: none;
 }
 
-body{
+body {
   background-color: #eaeaea;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: #333131;
 }
 
-.game-container{
+.game-container {
   background-color: #ffffff;
   width: 60%;
   margin: 3rem auto 0;
@@ -25,7 +25,7 @@ body{
   border-radius: 3px;
 }
 
-#input-number{
+#input-number {
   background-color: #eaeaea;
   text-align: center;
   width: 55%;
@@ -35,15 +35,15 @@ body{
   border-radius: 3px;
 }
 
-.btn-submit{
+.btn-submit {
   background-color: teal;
 }
 
-.btn-start{
+.btn-start {
   background-color: rebeccapurple;
 }
 
-button{
+button {
   padding: 10px 20px;
   border-radius: 3px;
   display: inline-block;
@@ -53,7 +53,53 @@ button{
   cursor: pointer;
 }
 
-p{
+p {
   font-weight: 600;
   font-size: 1.1rem;
+}
+
+/* responsive for small device */
+@media screen and (min-width: 420px) and (max-width: 720px) {
+  .game-container {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 1rem auto 0;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 3px;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  #input-number {
+    background-color: #eaeaea;
+    text-align: center;
+    width: 80%;
+    padding: 10px 5px;
+    font-size: 0.7rem;
+    font-family: inherit;
+    border-radius: 3px;
+  }
+
+  button {
+    padding: 5px 15px;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 0.7rem;
+    font-weight: semibold;
+    cursor: pointer;
+    color: #eaeaea;
+  }
+
+  p {
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
 }
